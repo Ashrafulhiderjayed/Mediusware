@@ -17,7 +17,6 @@ const Problem2 = () => {
 
   const handleShowModalB = () => {
     setShowModalB(true);
-    // Set URL for Modal B
     window.history.pushState(null, '', '/modalB');
     fetchData('/country-contacts/US/');
   };
